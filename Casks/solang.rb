@@ -8,7 +8,7 @@ cask "solang" do
     end
 
     version "0.1.12"
-    url "https://github.com/hyperledger-labs/solang/releases/download/v#{version}/solang-mac-#{arch}"
+    url "https://github.com/hyperledger/solang/releases/download/v#{version}/solang-mac-#{arch}"
     name "Solang"
     desc "Solidity Compiler for Solana, Substrate, and ewasm"
     homepage "https://solang.readthedocs.io/en/latest/"

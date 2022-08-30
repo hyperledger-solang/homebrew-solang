@@ -1,3 +1,3 @@
 ## Maintainers
 
-See [MAINTAINERS.md](https://github.com/hyperledger-labs/solang/blob/main/MAINTAINERS.md) in the Solang repository.
+See [MAINTAINERS.md](https://github.com/hyperledger/solang/blob/main/MAINTAINERS.md) in the Solang repository.
