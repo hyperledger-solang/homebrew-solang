@@ -2,12 +2,12 @@ cask "solang" do
     arch = Hardware::CPU.intel? ? "intel" : "arm"
 
     if Hardware::CPU.intel?
-        sha256 "79d205de600d5a1bd6720aa4d38d766bd0782d55551e54874ebab36afd024fe0"
+        sha256 "3170a95ce507aa430c44c1bf0358931b7881211d48b48d04adea940ade836d97"
     else
-        sha256 "f599e8b389e68c3f65d95610a33ccc33ab5c3c30fab9536015be9415da1b3193"
+        sha256 "8b3b7180be26ad6ec0e1a5e5d8506950c266279263dcdcdb75bc5df3e91ad119"
     end
 
-    version "0.3.0"
+    version "0.3.1"
     url "https://github.com/hyperledger/solang/releases/download/v#{version}/solang-mac-#{arch}"
     name "Solang"
     desc "Solidity Compiler for Solana and Substrate"
