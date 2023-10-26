@@ -2,9 +2,9 @@ cask "solang" do
     arch = Hardware::CPU.intel? ? "intel" : "arm"
 
     if Hardware::CPU.intel?
-        sha256 "4eb9967462535a1f001b8018750b766f6242f3ec82add79c55ec7c93294e285d"
+        sha256 "79faf95812c29644f3c77f531e5495277d55af05d2ff48208a4821e6eecd8c39"
     else
-        sha256 "03405a02106e2bc616aeec6313702d63c0228356c63f86d2a336cc25349c5cc9"
+        sha256 "fd2a9ddacc7e1beddf7c06f523ac7100d1acc274241c4738dbfcdf819b7c0dc0"
     end
 
     version "0.3.3"
